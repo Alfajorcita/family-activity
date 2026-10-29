@@ -1,0 +1,15 @@
+public class Walking extends Activity {
+
+    public Walking(String name, String place, Boolean isFree) {
+        super(name, place, isFree);
+    }
+
+    Activity walking1 = new Walking("Walking", "Spånga Centrum", true);
+    Activity walking2 = new Walking("Walking", "Stäket", false);
+    Activity walking3 = new Walking("Walking", "Park", true);
+    Activity walking4 = new Walking("Walking", "Görväln NaturReservat", false);
+    Activity walking5 = new Walking("Walking", "Spånga Centrum", true);
+
+
+
+}
