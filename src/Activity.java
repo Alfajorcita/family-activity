@@ -1,13 +1,18 @@
 public abstract class Activity {
 
-    String name;
-    String place;
-    Boolean isFree;
+    private String name;
+    private String place;
+    private FreeStatus isFree;
+    private int numberOfParticipants;
+    private TransportMode type;
 
-    public Activity(String name, String place, Boolean isFree) {
+    public Activity(String name, String place, FreeStatus isFree,
+                    int numberOfParticipants, TransportMode type) {
         this.name = name;
         this.place = place;
         this.isFree = isFree;
+        this.numberOfParticipants = numberOfParticipants;
+        this.type = type;
     }
 
     public String getName() {
@@ -18,7 +23,16 @@ public abstract class Activity {
         return place;
     }
 
-    public Boolean getFree() {
+    public FreeStatus getIsFree() {
         return isFree;
     }
+
+    public int getNumberOfParticipants() {
+        return numberOfParticipants;
+    }
+
+    public TransportMode getType() {
+        return type;
+    }
+
 }
