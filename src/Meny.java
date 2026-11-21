@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-
+import console.ConsolePrinter;
 public class Meny {
 
     public static void main(String[] args) {
@@ -11,11 +11,7 @@ public class Meny {
         String option;
 
         do {
-            System.out.println("\n-- Welcome to Family Activities --");
-            System.out.println("1 - Add activity");
-            System.out.println("2 - Find an activity");
-            System.out.println("3 - Exit program");
-            System.out.print("Choose an option: ");
+            ConsolePrinter.showMainMenu();
 
             option = scanner.nextLine().trim();
 
