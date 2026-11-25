@@ -1,3 +1,5 @@
+package activity;
+
 public enum TransportMode {
     BIKE,
     CAR,

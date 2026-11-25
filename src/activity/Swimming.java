@@ -1,3 +1,5 @@
+package activity;
+
 public class Swimming extends Activity {
 
     public Swimming(String name, String place,
