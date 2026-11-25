@@ -1,5 +1,8 @@
 
 import java.util.Scanner;
+
+import activity.FreeStatus;
+import activity.TransportMode;
 import console.ConsolePrinter;
 public class Meny {
 
@@ -19,7 +22,7 @@ public class Meny {
 
                 case "1":
                     // MENU 1.2
-                    System.out.println("\n-- Add a new Activity --");
+                    System.out.println("\n-- Add a new activity.Activity --");
                     System.out.println("Answer the following questions.");
 
                     // 1. NAME
@@ -126,7 +129,7 @@ public class Meny {
 
                     System.out.println("Activities saved: " + activityService.activities.size());
 
-                    System.out.println("\n-- Activity added! --");
+                    System.out.println("\n-- activity.Activity added! --");
                     System.out.println("Name: " + name + "---");
                     System.out.print("Place: " + place + "---");
                     System.out.print("Is free: " + isFree + "---");
@@ -138,7 +141,7 @@ public class Meny {
 
                 case "2":
                     System.out.println("\n-- Available Activities --");
-                    activityService.showAllActivities();//llama al metodo y muestra el contenido del arraylist
+                    activityService.showAllActivities();
                     break;
 
                 case "3":

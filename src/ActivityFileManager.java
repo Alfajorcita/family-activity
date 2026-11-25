@@ -1,3 +1,4 @@
+import activity.Activity;
 import com.google.gson.Gson;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,7 +16,7 @@ import java.io.IOException;
                 writer.write(System.lineSeparator());
 
 
-                System.out.println("Activity saved to file!");
+                System.out.println("activity.Activity saved to file!");
 
             } catch (IOException e) {
                 System.out.println("Error saving activity: " + e.getMessage());

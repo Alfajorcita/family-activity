@@ -1,3 +1,5 @@
+import activity.FreeStatus;
+import activity.TransportMode;
 
 public class InputHelper {
 

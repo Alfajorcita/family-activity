@@ -1,3 +1,5 @@
+package activity;
+
 public abstract class Activity {
 
     private String name;
